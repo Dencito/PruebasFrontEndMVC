@@ -9,6 +9,10 @@
     font-family: 'Laila', sans-serif;
 }
 
+.color-primario {
+    color: var(--colorPrimario);
+}
+
 .contacto {
     background-color: var(--colorPrimario);
     color: #ff4880;
@@ -36,7 +40,7 @@
 #menu ul a
 {
 	display:block;
-	color:#333;
+	color:rgb(253, 253, 253);
 	text-decoration:none;
 	font-weight:700;
 	font-size:17px;
@@ -55,7 +59,8 @@
 
 #menu ul li:hover
 {
-	background: var(--colorPrimario);
+	background: #000;
+    transition: .4s;
 }
 
 #menu ul li:hover>a
@@ -69,7 +74,7 @@
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#fff;
+	background: var(--colorPrimario);
 	padding:0
 }
 
