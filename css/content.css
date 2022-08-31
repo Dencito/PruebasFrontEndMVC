@@ -11,16 +11,17 @@
 
 .contacto {
     background-color: var(--colorPrimario);
-    color: #fff;
+    color: #ff4880;
 }
 /* menuu*/
 
 #menu {
+    border-top: 2px solid #fff;
     padding: 10px 0;
     position: sticky;
-    top: 0;
+    top: -5px;
     z-index: 6;
-    background-color: #fff;
+    background-color: var(--colorPrimario);
 }
 
 #menu ul
