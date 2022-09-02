@@ -14,8 +14,8 @@
 </head>
 <body>
     <header class="container-fluid contacto">
-        <div class="row mx-auto py-3">
-            <div class="col-5 contactos mx-auto d-flex flex-wrap my-auto">
+        <div class="row mx-auto py-3 d-flex justify-content-center">
+            <div class="col-8 contactos d-flex flex-wrap my-auto">
                 <div class="tel mx-2">
                     <a href="" class="text-white text-decoration-none">
                         <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="col-3 redes mx-auto d-flex">
+            <div class="col-4 redes d-flex justify-content-end">
                 <div class="facebook mx-2">
                     <a href="" class="text-white text-decoration-none">
                         <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
@@ -57,21 +57,16 @@
                     </a>
                 </div>
 
-                <div class="youtube mx-2">
+                <div class="instagram mx-2">
                     <a href="#" class="text-white text-decoration-none">
-                        <i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i>
-                    </a>
-                </div>
-
-                <div class="youtube ms-5">
-                    <a href="#" class="text-white text-decoration-none">
-                        <i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i>
+                        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
         </div>
     </header>
-    <nav id="menu" class="d-flex justify-content-center">
+    <nav id="menu" class="container-fluid d-flex justify-content-between align-items-center">
+        <a href="./home.html"><img src="./media/logo/LogoPets-white.png" alt="" class="logo"></a>
         <input type="checkbox" id="navHamburger">
         <label for="navHamburger" class="labelNav">
             <div class="lines line1"></div>
@@ -124,11 +119,26 @@
                     <li><a href="#">Sub Menu 4</a></li>
                     <li><a href="#">Sub Menu 5</a></li>
                 </ul>
-            </li>
-            <li><a href="">Menu 4</a></li>
-            <li><a href="">Menu 5</a></li>
-            <li><a href="">Menu 6</a></li>
         </ul>
+        <div class="users d-flex">
+            <div class="adoptador me-3">
+                <a href="./adoptador.html" class="text-white text-decoration-none d-flex">
+                    <p class="text-white my-auto pe-2 fs-6">Adopt</p>
+                    <i class="fa fa-paw fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="donador me-3">
+                <a href="./donador.html" class="text-white text-decoration-none d-flex">
+                    <p class="text-white my-auto pe-2 fs-6">Giver</p>
+                    <i class="fa fa-paw fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="user me-2">
+                <a href="#" class="text-white text-decoration-none">
+                    <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
     </nav>
     <main class="container-fluid  mb-5 pt-5 pb-5">
         <h1 class="display-1 fw-bold text-center" data-aos-delay="500" data-aos="fade-right">Pe<span class="color-primario">ts</span></h1>
@@ -161,83 +171,83 @@
                 </button>
             </div>
             <div class="col-md-7 col-lg-4 my-auto mx-auto mx-lg-0" data-aos-delay="700" data-aos="fade-left">
-                <h2 class="display-2 fw-bold text-center mt-5 pt-5">Adopta</h2>
+                <h2 class="display-5 fw-bold text-center mt-5 pt-5 mb-5"> <span class="color-primario">Adopte</span> no compre</h2>
                 <p class="fs-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi temporibus iusto quo cumque hic, a, eius nihil aut sapiente aperiam cum delectus obcaecati sed pariatur praesentium autem vitae iste quisquam reprehenderit incidunt? Repellendus eligendi dolorum tempore mollitia eius et, veritatis ea eaque maiores iure deserunt non omnis explicabo odio quae!</p>
             </div>
         </div>
     </main>
 
-    <section class="container mb-5 pt-5">
-        <div class="row mb-5">
-            <div class="col-12">
-                <h2 class="display-5 fw-bold text-center" data-aos-delay="400" data-aos="fade-left"><span class="color-primario">Animalitos</span> en adopción</h2>
+    <section class="container mb-5 pt-5 mx-auto">
+        <div class="row mb-5 mx-auto">
+            <div class="col-12 mx-auto">
+                <h2 class="display-5 fw-bold text-center" data-aos-delay="300" data-aos="fade-left"><span class="color-primario">Animalitos</span> en adopción</h2>
             </div>
         </div>
         <div class="row d-flex flex-wrap animalitos">
             <div class="col-10 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mx-auto mb-5">
-                <img src="./media/imgs/img-circle-1.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="800" data-aos="fade-right">
-                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="800" data-aos="fade-right">
-                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="850" data-aos="fade-right"></i>
+                <img src="./media/imgs/img-circle-1.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="300" data-aos="fade-right">
+                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="400" data-aos="fade-right">
+                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="450" data-aos="fade-right"></i>
                     <p data-aos-delay="900" data-aos="fade-right"> Birth: 2021</p>
                 </div>
-                <h3 class="text-center fw-bold" data-aos-delay="600" data-aos="fade-right">consectetur adipiscing</h3>
-                <p class="text-center w-75 mx-auto" data-aos-delay="600" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
-                <a href="" class="d-block text-center" data-aos-delay="600" data-aos="fade-right">Read More</a>
+                <h3 class="text-center fw-bold" data-aos-delay="400" data-aos="fade-right">consectetur adipiscing</h3>
+                <p class="text-center w-75 mx-auto" data-aos-delay="400" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
+                <a href="" class="d-block text-center" data-aos-delay="400" data-aos="fade-right">Read More</a>
             </div>
 
             <div class="col-10 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mx-auto mb-5">
-                <img src="./media/imgs/img-circle-2.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="800" data-aos="fade-down">
-                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="800" data-aos="fade-up">
-                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="850" data-aos="fade-up"></i>
+                <img src="./media/imgs/img-circle-2.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="300" data-aos="fade-down">
+                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="400" data-aos="fade-up">
+                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="450" data-aos="fade-up"></i>
                     <p data-aos-delay="900" data-aos="fade-right"> Birth: 2021</p>
                 </div>
-                <h3 class="text-center fw-bold" data-aos-delay="600" data-aos="fade-up">consectetur adipiscing</h3>
-                <p class="text-center w-75 mx-auto" data-aos-delay="600" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
-                <a href="" class="d-block text-center" data-aos-delay="600" data-aos="fade-up">Read More</a>
+                <h3 class="text-center fw-bold" data-aos-delay="400" data-aos="fade-up">consectetur adipiscing</h3>
+                <p class="text-center w-75 mx-auto" data-aos-delay="300" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
+                <a href="" class="d-block text-center" data-aos-delay="300" data-aos="fade-up">Read More</a>
             </div>
 
             <div class="col-10 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mx-auto mb-5">
-                <img src="./media/imgs/img-circle-1.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="800" data-aos="fade-left">
-                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="800" data-aos="fade-left">
-                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="850" data-aos="fade-left"></i>
+                <img src="./media/imgs/img-circle-1.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="300" data-aos="fade-left">
+                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="300" data-aos="fade-left">
+                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="350" data-aos="fade-left"></i>
                     <p data-aos-delay="900" data-aos="fade-right"> Birth: 2021</p>
                 </div>
-                <h3 class="text-center fw-bold" data-aos-delay="600" data-aos="fade-left">consectetur adipiscing</h3>
-                <p class="text-center w-75 mx-auto" data-aos-delay="600" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
-                <a href="" class="d-block text-center" data-aos-delay="600" data-aos="fade-right">Read More</a>
+                <h3 class="text-center fw-bold" data-aos-delay="300" data-aos="fade-left">consectetur adipiscing</h3>
+                <p class="text-center w-75 mx-auto" data-aos-delay="300" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
+                <a href="" class="d-block text-center" data-aos-delay="300" data-aos="fade-right">Read More</a>
             </div>
 
             <div class="col-10 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mx-auto mb-5">
-                <img src="./media/imgs/img-circle-4.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="800" data-aos="fade-right">
-                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="800" data-aos="fade-right">
-                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="850" data-aos="fade-right"></i>
+                <img src="./media/imgs/img-circle-4.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="300" data-aos="fade-right">
+                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="300" data-aos="fade-right">
+                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="350" data-aos="fade-right"></i>
                     <p data-aos-delay="900" data-aos="fade-right"> Birth: 2021</p>
                 </div>
-                <h3 class="text-center fw-bold" data-aos-delay="600" data-aos="fade-right">consectetur adipiscing</h3>
-                <p class="text-center w-75 mx-auto" data-aos-delay="600" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
-                <a href="" class="d-block text-center" data-aos-delay="600" data-aos="fade-right">Read More</a>
+                <h3 class="text-center fw-bold" data-aos-delay="300" data-aos="fade-right">consectetur adipiscing</h3>
+                <p class="text-center w-75 mx-auto" data-aos-delay="300" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
+                <a href="" class="d-block text-center" data-aos-delay="300" data-aos="fade-right">Read More</a>
             </div>
 
             <div class="col-10 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mx-auto mb-5">
-                <img src="./media/imgs/img-circle-5.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="800" data-aos="fade-down">
-                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="800" data-aos="fade-up">
-                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="850" data-aos="fade-up"></i>
+                <img src="./media/imgs/img-circle-5.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="300" data-aos="fade-down">
+                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="300" data-aos="fade-up">
+                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="350" data-aos="fade-up"></i>
                     <p data-aos-delay="900" data-aos="fade-right"> Birth: 2021</p>
                 </div>
-                <h3 class="text-center fw-bold" data-aos-delay="600" data-aos="fade-up">consectetur adipiscing</h3>
-                <p class="text-center w-75 mx-auto" data-aos-delay="600" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
-                <a href="" class="d-block text-center" data-aos-delay="600" data-aos="fade-up">Read More</a>
+                <h3 class="text-center fw-bold" data-aos-delay="300" data-aos="fade-up">consectetur adipiscing</h3>
+                <p class="text-center w-75 mx-auto" data-aos-delay="300" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
+                <a href="" class="d-block text-center" data-aos-delay="300" data-aos="fade-up">Read More</a>
             </div>
 
             <div class="col-10 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mx-auto mb-5">
-                <img src="./media/imgs/img-circle-1.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="800" data-aos="fade-left">
-                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="800" data-aos="fade-left">
-                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="850" data-aos="fade-left"></i>
+                <img src="./media/imgs/img-circle-1.jpg" alt="" class="img-circle d-block mx-auto" data-aos-delay="300" data-aos="fade-left">
+                <div class="fecha d-flex justify-content-center me-3 mt-3" data-aos-delay="300" data-aos="fade-left">
+                    <i class="fa fa-calendar fa-lg me-2" aria-hidden="true" data-aos-delay="350" data-aos="fade-left"></i>
                     <p data-aos-delay="900" data-aos="fade-right"> Birth: 2021</p>
                 </div>
-                <h3 class="text-center fw-bold" data-aos-delay="600" data-aos="fade-left">consectetur adipiscing</h3>
-                <p class="text-center w-75 mx-auto" data-aos-delay="600" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
-                <a href="" class="d-block text-center" data-aos-delay="600" data-aos="fade-right">Read More</a>
+                <h3 class="text-center fw-bold" data-aos-delay="300" data-aos="fade-left">consectetur adipiscing</h3>
+                <p class="text-center w-75 mx-auto" data-aos-delay="300" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus.</p>
+                <a href="" class="d-block text-center" data-aos-delay="300" data-aos="fade-right">Read More</a>
             </div>
         </div>
     </section>

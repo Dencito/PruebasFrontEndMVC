@@ -12,6 +12,10 @@
 .color-primario {
     color: var(--colorPrimario);
 }
+.logo {
+    width: 100px;
+    margin-left: 10px;
+}
 
 .contacto {
     background-color: var(--colorPrimario);
@@ -32,7 +36,6 @@
 {
 	list-style:none;
 	position:relative;
-	float:left;
 	margin:0;
 	padding:0
 }
@@ -123,7 +126,6 @@
 
 .redes div a {
     display: inline-block;
-    background: #000;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -137,22 +139,35 @@
     top: 25%;
 }
 
+.redes div a:hover {
+    background-color: #1877f2;
+    transition: .5s;
+}
+
 .redes div:nth-child(2) a i{
     left: 20%;
 }
 
-.redes div:nth-child(3) a i{
-    left: 15%;
+.redes div:nth-child(2) a:hover{
+    background-color: #1DA1F2;
 }
+
+.redes div:nth-child(3) a i{
+    left: 15.2%;
+}
+
+.redes div:nth-child(3) a:hover{
+    background-color: #FF0000;
+}
+
 
 .redes div:nth-child(4) a i{
-    left: 24.5%;
+    left: 21%;
 }
 
-.redes div:nth-child(5) a i{
-    left: 14.4%;
+.redes div:nth-child(4) a:hover{
+    background-color: #D43089;
 }
-
 /* fin menu */
 
 
