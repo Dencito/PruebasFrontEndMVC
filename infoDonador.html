@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/content.css">
     <link rel="icon" type="image/x-icon" href="media/icons/logo.png">
     <title>Donador</title>
@@ -115,35 +114,51 @@
             </div>
         </div>
     </nav>
-    <main class="container-fluid mt-5">
-        <div class="row formulario d-flex flex-column-reverse flex-lg-row mx-auto">
-                <div class="col-11 col-sm-9 col-md-7 col-lg-7 col-xl-6 col-xxl-6 d-none d-sm-block ps-5 pt-4">
-                        <img src="media/imgs/img-dador.jpg" alt="" class="h-img shadow h-100">
+    <main class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="fs-1 fw-bold text-center mb-4">detalles del animalito:</h1>
+            </div>
+            <div class="row d-flex justify-content-center text-white bg-primario">
+                <div class="animal col-12 col-sm-6 col-lg-8 col-lg-6 col-xl-4 col-xxl-2 p-3">
+                    <div class="img-animal">
+                        <img src="./media/imgs/img-dador.jpg" alt="" class="mx-auto d-block">
+                    </div>
+                    <div class="nombre d-flex justify-content-center">
+                        <h3 class="me-1">Nombre</h3>
+                        <h3>Apellido</h3>
+                    </div>
+                    <div class="raza">
+                        <h5 class="text-center">Mi raza es: chikito</h5>
+                    </div>
+                    <div class="edad">
+                        <h5 class="text-center">Tengo ... Añitos</h5>
+                    </div>
                 </div>
-                <form action="" class="col-11 col-sm-9 col-md-7 col-lg-5 col-xl-3 col-xxl-3 mx-auto my-auto">
-                        <h1 class="text-center display-1 mb-5 title">Donador</h1>
-                        <div class="d-flex justify-content-center">
-                            <input type="text" name="name" id="nombre" class=" p-1 rounded inputs ps-2 col-5" placeholder="Nombre:" required>
-                            <input type="text" name="lastName" id="apellido" class="p-1 rounded inputs ps-2 col-5" placeholder="Apellido:">
-                        </div>
-                        <input type="text" name="sexo" id="sexo" class="d-block mx-auto p-1 my-3 rounded inputs ps-2 col-10" placeholder="Sexo:">
-                        <div class="d-flex justify-content-center">
-                            <select name="" id="" class="p-1 rounded inputs ps-2 col-3">
-                                <option value="gato">Gato</option>
-                                <option value="perro">Perro</option>
-                                <option value="otro">Otros</option>
-                            </select>
-                            <input type="text" name="raza" id="raza" class=" p-1 rounded inputs ps-2 col-7" placeholder="Raza:">
-                        </div>
-                        <input type="date" name="date" id="fecha" class="d-block mx-auto p-1 my-3 rounded inputs ps-2 col-10">
-                        
-                        <input type="tel" name="email" id="correo" class="d-block mx-auto p-1 my-3 rounded inputs ps-2 col-10" placeholder="Telefono:" required>
-                        <input type="file" name="email" id="correo" class="d-block mx-auto p-1 my-3 rounded inputs ps-2 col-10" required>
-                        <input type="submit" value="Poner en adopción" class="mx-auto d-block btns mb-2">
-                        <div class="col-12">
-                            <span class="d-flex justify-content-center flex-wrap f-cursive">¿Ya no quiere poner en adopción?<a href="home.html" class="d-block text-center mb-5 text-decoration-none ms-2">Haga click</a></span>
-                        </div>
-                </form>
+                <div class="datos col-12 col-lg-2 p-3">
+                    <div class="tamaño">
+                        <h5>Soy medianito</h5>
+                    </div>
+
+                    <div class="peso">
+                        <h5>Estoy pesando 5KG</h5>
+                    </div>
+
+                    <div class="descripcion">
+                        <h4>Descripcion:</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sint minus laborum dolor eos! Dolorem tempora voluptatibus sequi quibusdam beatae!</p>
+                    </div>
+                    <div class="localidad">
+                        <h4>Soy de:</h4>
+                        <p>lorem Ipsum 123</p>
+                    </div>
+                    <div class="telefono">
+                        <h4>Telefono: </h4>
+                        <p>+54 9 1122334455</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </main>
     
