@@ -16,6 +16,7 @@
     color: #000;
     font-size: 20px;
     font-family: cursive;
+    transition: all .6s;
 }
 
 .inputs:hover {
@@ -61,6 +62,13 @@
 }
 
 .btns:hover {
+    background-color: rgb(226, 37, 163);
+    color: #fff;
+    box-shadow: 2px 5px 15px rgba(226, 37, 163, 0.644);
+    transition: all .4s;
+}
+
+.btns:focus {
     background-color: rgb(226, 37, 163);
     color: #fff;
     box-shadow: 2px 5px 15px rgba(226, 37, 163, 0.644);
